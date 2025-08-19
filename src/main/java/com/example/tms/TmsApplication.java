@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-@EntityScan("com.example.tms.model")
+@EntityScan(basePackages = "com.example.tms.model")
 public class TmsApplication {
 
 	public static void main(String[] args) {
